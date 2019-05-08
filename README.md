@@ -12,4 +12,6 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 | Container           | Purpose                                            |
 |---------------------|----------------------------------------------------|
 | czsh                | minimal zsh/oh-my-zsh on debian, for testing       |
+| emacs               | containerized emacs, no X.                         |
+| htop                | process monitoring                                 |
 | netcat              | the tcp swiss army knife                           |
