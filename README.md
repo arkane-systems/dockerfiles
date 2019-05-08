@@ -15,6 +15,7 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 | emacs                         | containerized emacs, no X.                                      |
 | htop                          | process monitoring                                              |
 | httpbin                       | simple HTTP request/response service ( https://httpbin.org/ )   |
+| httpie                        | intuitive CLI HTTP client ( https://httpie.org/ )               |
 | netcat                        | the tcp swiss army knife                                        |
 | python:3-with-buildessentials | python:3-slim-sid with build-essential installed (intermediate) |
 
