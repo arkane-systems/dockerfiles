@@ -11,4 +11,4 @@ RUN pip3 install --no-cache-dir gevent gunicorn httpbin && \
 	apt autoremove -y && \
 	rm -rf /var/lib/apt/lists/*
 
-CMD ["gunicorn", "-b", "0.0.0.0:80", "httpbin:app", "-k", "gevent"]
+ENTRYPOINT ["gunicorn", "-b", "0.0.0.0:80", "httpbin:app", "-k", "gevent"]

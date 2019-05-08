@@ -18,6 +18,7 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 | httpie                        | intuitive CLI HTTP client ( https://httpie.org/ )               |
 | lynx                          | text-based web browser                                          |
 | netcat                        | the tcp swiss army knife                                        |
+| ponysay                       | like cowsay, but with more MLP:FiM                              |
 | python:3-with-buildessentials | python:3-slim-sid with build-essential installed (intermediate) |
 
 Containers noted as (intermediate) are used only as build steps for other containers.

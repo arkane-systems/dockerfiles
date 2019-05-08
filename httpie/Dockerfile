@@ -1,6 +1,6 @@
 # httpie, intuitive CLI http client
 #
-# docker run --rm -it 80:80 cerebrate/httpie
+# docker run --rm -it cerebrate/httpie <url>
 #
 
 FROM python:2-slim-stretch
