@@ -16,6 +16,7 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 | htop                          | process monitoring                                              |
 | httpbin                       | simple HTTP request/response service ( https://httpbin.org/ )   |
 | httpie                        | intuitive CLI HTTP client ( https://httpie.org/ )               |
+| lynx                          | text-based web browser                                          |
 | netcat                        | the tcp swiss army knife                                        |
 | python:3-with-buildessentials | python:3-slim-sid with build-essential installed (intermediate) |
 
