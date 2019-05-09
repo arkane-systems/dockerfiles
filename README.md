@@ -9,6 +9,8 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 
 ## The Containers
 
+### Linux Containers
+
 | Container                     | Purpose                                                         |
 |-------------------------------|-----------------------------------------------------------------|
 | czsh                          | minimal zsh/oh-my-zsh on debian, for testing                    |
@@ -17,8 +19,9 @@ Most of these should be findable on dockerhub under cerebrate/whatever.
 | httpbin                       | simple HTTP request/response service ( https://httpbin.org/ )   |
 | httpie                        | intuitive CLI HTTP client ( https://httpie.org/ )               |
 | lynx                          | text-based web browser                                          |
-| netcat                        | the tcp swiss army knife                                        |
+| netcat                        | the tcp/ip swiss army knife                                     |
 | ponysay                       | like cowsay, but with more MLP:FiM                              |
-| python:3-with-buildessentials | python:3-slim-sid with build-essential installed (intermediate) |
 
-Containers noted as (intermediate) are used only as build steps for other containers.
+### Windows Containers
+
+None yet.
