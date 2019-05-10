@@ -17,4 +17,8 @@ RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -
 
 COPY ./.zshrc /root/.zshrc
 
+VOLUME /host
+
+WORKDIR /host
+
 ENTRYPOINT /bin/zsh
